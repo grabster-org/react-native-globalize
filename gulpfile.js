@@ -13,7 +13,7 @@ const path = require('path');
 const Cldr = require('cldrjs');
 
 const locales = [
-  'am',           // Amharic
+  /*'am',           // Amharic
   'ar',           // Arabic
   'bg',           // Bulgarian
   'bn',           // Bengali
@@ -22,9 +22,10 @@ const locales = [
   'da',           // Danish
   'de',           // German
   'el',           // Greek
+  */
   'en',           // English (United States)
   'en-GB',        // English (Great Britain)
-  'es',           // Spanish
+  /*'es',           // Spanish
   'es-419',       // Spanish (Latin America & Caribbean)
   'et',           // Estonian
   'fa',           // Persian
@@ -46,7 +47,9 @@ const locales = [
   'ml',           // Malayalam
   'mr',           // Marathi
   'ms',           // Malay
+  */
   'nb',           // Norwegian
+  /*
   'nl',           // Dutch
   'pl',           // Polish
   'pt',           // Portuguese
@@ -67,13 +70,16 @@ const locales = [
   'zh',           // Chinese
   'zh-Hans',      // Chinese (Simplified)
   'zh-Hant',      // Chinese (Traditional)
+  */
 ];
 
 const currencies = [
-  'CAD',          // Canadian Dollar
+  /*'CAD',          // Canadian Dollar
   'EUR',          // Euro
   'GBP',          // British Pound
   'USD',          // US Dollar
+  */
+  'NOK',          // Norwegian Kroner
 ];
 
 const files = ['ca-gregorian', 'currencies', 'dateFields', 'numbers', 'timeZoneNames'];
